@@ -1,0 +1,22 @@
+{
+  "name": "@ravn-dev/prettier-config",
+  "version": "0.0.1",
+  "description": "prettier config used by ravn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raven-dev/prettier-configs.git"
+  },
+  "author": "donovanhiland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raven-dev/prettier-configs/issues"
+  },
+  "homepage": "https://github.com/raven-dev/prettier-configs#readme",
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}
