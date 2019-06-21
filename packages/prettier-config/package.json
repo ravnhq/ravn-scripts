@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "prettier config used by ravn",
   "main": "index.js",
   "peerDependencies": {
@@ -8,6 +8,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {}
+  }
 }
