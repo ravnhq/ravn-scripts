@@ -14,6 +14,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
     "expo": "^33.0.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
@@ -21,9 +22,10 @@
     "react-native-web": "^0.11.4"
   },
   "devDependencies": {
-    "@ravn-dev/eslint-config-ravn": "^0.0.4",
-    "@ravn-dev/prettier-config": "^0.0.4",
-    "@ravn-dev/typescript": "^0.0.4",
+    "@ravn-dev/eslint-config-ravn": "^0.0.2",
+    "@ravn-dev/git-processes-config": "^0.0.2",
+    "@ravn-dev/prettier-config": "^0.0.2",
+    "@ravn-dev/typescript": "^0.0.2",
     "@types/react": "^16.8.19",
     "@types/react-native": "^0.57.60",
     "babel-preset-expo": "^5.1.1",
