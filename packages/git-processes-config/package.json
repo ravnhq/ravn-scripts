@@ -1,0 +1,12 @@
+{
+  "name": "@ravn-dev/git-processes-config",
+  "version": "0.0.0",
+  "description": "git related processes configs",
+  "main": "index.js",
+  "scripts": {},
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1"
+  }
+}

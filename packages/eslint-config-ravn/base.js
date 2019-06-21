@@ -20,7 +20,6 @@ module.exports = {
   rules: {
     complexity: 'off',
     'consistent-return': 'off',
-    'global-require': 'error',
     'no-array-constructor': 'error',
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
     'no-const-assign': 'error',
@@ -31,6 +30,8 @@ module.exports = {
     'no-unused-expressions': 'off',
     'prefer-const': 'error',
     'valid-typeof': 'off',
+
+    'eslint-comments/disable-enable-pair': ["error", { allowWholeFile: true }],
 
     'babel/no-unused-expressions': [
       'error',

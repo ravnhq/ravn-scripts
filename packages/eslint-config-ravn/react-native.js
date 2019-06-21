@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 const { testFiles } = require('./fileBlobs')
 
 module.exports = {
@@ -5,13 +6,13 @@ module.exports = {
   extends: ['./react.js'],
   rules: {
     'no-console': [
-      ERROR,
+      "error",
       { allow: ['info', 'warn', 'error', 'ignoredYellowBox'] },
     ],
 
-    'react-native/no-unused-styles': ERROR,
+    'react-native/no-unused-styles': "error",
     'react-native/no-raw-text': [
-      ERROR,
+      "error",
       {
         // Components that are allowed to take text as children
         // prettier-ignore

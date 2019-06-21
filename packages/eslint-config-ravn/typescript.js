@@ -1,9 +1,5 @@
 const path = require('path')
 
-const allTypescriptFiles = '**/*.{ts,tsx}'
-const tsxFiles = '**/*.tsx'
-const typeDefinitionFiles = '**/*.d.ts'
-
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
