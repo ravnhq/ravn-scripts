@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/git-processes-config",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "git related processes configs",
   "main": "index.js",
   "scripts": {},
