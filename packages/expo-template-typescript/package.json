@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/expo-template-typescript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "expo template for use with expo cli",
   "publishConfig": {
     "access": "public"
@@ -21,9 +21,9 @@
     "react-native-web": "^0.11.4"
   },
   "devDependencies": {
-    "@ravn-dev/eslint-config-ravn": "^0.0.3",
-    "@ravn-dev/prettier-config": "^0.0.3",
-    "@ravn-dev/typescript": "^0.0.3",
+    "@ravn-dev/eslint-config-ravn": "^0.0.4",
+    "@ravn-dev/prettier-config": "^0.0.4",
+    "@ravn-dev/typescript": "^0.0.4",
     "@types/react": "^16.8.19",
     "@types/react-native": "^0.57.60",
     "babel-preset-expo": "^5.1.1",
