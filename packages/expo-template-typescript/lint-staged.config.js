@@ -1,1 +1,1 @@
-module.exports = require('@ravn-dev/git-processes-config/lint-staged')
+module.exports = require('@ravn-dev/git-processes-config').lintStaged
