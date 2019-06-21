@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import i18n from 'i18n-js'
+import { StatusBar } from 'react-native'
 
 const Container = styled.View`
   flex: 1;
@@ -18,7 +19,8 @@ const Title = styled.Text`
 export default function App() {
   return (
     <Container>
-      <Title>{i18n.t('HOME_welcome')}</Title>
+      <StatusBar barStyle="light-content" />
+      <Title>{i18n.t('BROLOLO')}</Title>
     </Container>
   )
 }

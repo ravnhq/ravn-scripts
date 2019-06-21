@@ -1,1 +1,1 @@
-import * as jestStyledC from 'jest-styled-components'
+import 'jest-styled-components'

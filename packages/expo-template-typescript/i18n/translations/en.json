@@ -1,3 +1,5 @@
 {
-  "HOME_welcome": "Welcome!"
+  "home": {
+    "welcome": "Welcome"
+  }
 }
