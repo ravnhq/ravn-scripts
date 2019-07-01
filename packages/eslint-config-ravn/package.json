@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/eslint-config-ravn",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "eslint configs used by ravn",
   "main": "index.js",
   "keywords": [
