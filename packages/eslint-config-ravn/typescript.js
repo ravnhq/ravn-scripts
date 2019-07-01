@@ -6,11 +6,12 @@ module.exports = {
     'prettier/@typescript-eslint',
   ],
   parserOptions: {
-    project: path.resolve(__dirname, 'tsconfig.json'),
+    project: 'tsconfig.json',
   },
   rules: {
     'consistent-return': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 }
