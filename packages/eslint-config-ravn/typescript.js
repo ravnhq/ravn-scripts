@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
@@ -9,6 +7,7 @@ module.exports = {
     project: 'tsconfig.json',
   },
   rules: {
+    'react/prop-types': 'off',
     'consistent-return': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
