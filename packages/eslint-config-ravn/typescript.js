@@ -13,5 +13,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/@typescript-eslint/no-explicit-any': 'off',
   },
 }
