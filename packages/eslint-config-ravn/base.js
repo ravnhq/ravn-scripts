@@ -28,6 +28,7 @@ module.exports = {
     'no-invalid-this': 'off',
     'no-new-object': 'error',
     'no-unused-expressions': 'off',
+    'on-var': ['error', 'never'],
     'prefer-const': 'error',
     'valid-typeof': 'off',
 
