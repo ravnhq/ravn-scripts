@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components/native'
+import styled from 'src/ui/styled-components'
 import i18n from 'i18n-js'
 import { StatusBar } from 'react-native'
 
@@ -20,7 +20,7 @@ export default function App() {
   return (
     <Container>
       <StatusBar barStyle="light-content" />
-      <Title>{i18n.t('BROLOLO')}</Title>
+      <Title>{i18n.t('home.Welcome')}</Title>
     </Container>
   )
 }

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@styled-components": ["src/ui/styled-components"]
+    }
+  },
+
+  "extends": "./node_modules/@ravn-dev/typescript/tsconfig.json"
+}

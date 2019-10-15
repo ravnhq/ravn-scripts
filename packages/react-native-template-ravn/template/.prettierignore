@@ -1,0 +1,7 @@
+node_modules/
+package.json
+ios
+android
+.vscode/
+src/graphql/schema.json
+src/graphql/api.tsx

@@ -1,3 +1,0 @@
-{
-  "extends": "./node_modules/@ravn-dev/typescript/tsconfig.json"
-}

@@ -1,0 +1,19 @@
+overwrite: true
+schema: [./src/graphql/schema.json]
+documents: src/**/*.{ts,tsx}
+generates:
+  ./src/graphql/api.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+      - add:
+          content: |
+            /* eslint-disable valid-jsdoc, @typescript-eslint/array-type, @typescript-eslint/prefer-interface, graphql/template-strings */
+    config:
+      withHooks: true
+      declarationKind: 'interface'
+      namingConvention:
+        typeNames: change-case#pascalCase
+        enumValues: change-case#upperCase
+      transformUnderscore: true

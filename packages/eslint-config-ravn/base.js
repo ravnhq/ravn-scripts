@@ -30,6 +30,7 @@ module.exports = {
     'no-unused-expressions': 'off',
     'one-var': ['error', 'never'],
     'prefer-const': 'error',
+    'valid-jsdoc': 'off',
     'valid-typeof': 'off',
 
     'eslint-comments/disable-enable-pair': ["error", { allowWholeFile: true }],
