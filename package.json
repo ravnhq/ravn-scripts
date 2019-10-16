@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "@ravn-dev/eslint-config-ravn": "^0.0.2",
+    "@ravn-dev/git-processes-config": "^0.0.6",
     "@ravn-dev/prettier-config": "^0.0.2",
     "@ravn-dev/typescript": "^0.0.6",
     "eslint": "^5.16.0",
