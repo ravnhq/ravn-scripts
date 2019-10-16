@@ -927,6 +927,11 @@
   resolved "https://registry.yarnpkg.com/@ravn-dev/prettier-config/-/prettier-config-0.0.2.tgz#b30bc32a91ac50d79fd241f4362f8b027439e0a6"
   integrity sha512-BLhGg9bGKCvs3nb9COws/ROpJwFhAffPQ8R+8hzUshkhM+IvAz46eYT69lP7me3bQVKxA15pRECtq252Es27Hg==
 
+"@ravn-dev/typescript@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@ravn-dev/typescript/-/typescript-0.0.6.tgz#f8d8d2cbaface5b8d3a3cac7e94f7e352910d03b"
+  integrity sha512-FHo+XKHhQCK7KqaE1Vu4PPg/poNrkbRaeOW2ccz96h3s28cuWxMuLPj77GPFWKRHekhyd/yJObFzWueI00hCKQ==
+
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
