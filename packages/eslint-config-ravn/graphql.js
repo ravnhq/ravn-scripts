@@ -1,15 +1,13 @@
 module.exports = {
-  parser: "babel-eslint",
-  plugins: [
-    'graphql'
-  ],
+  parser: 'babel-eslint',
+  plugins: ['graphql'],
   rules: {
     'graphql/template-strings': [
-      "error",
+      'error',
       {
         env: 'apollo',
         tagName: 'gql',
       },
-    ]
+    ],
   },
 }

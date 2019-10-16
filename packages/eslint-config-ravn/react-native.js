@@ -6,13 +6,13 @@ module.exports = {
   extends: ['./react.js'],
   rules: {
     'no-console': [
-      "error",
+      'error',
       { allow: ['info', 'warn', 'error', 'ignoredYellowBox'] },
     ],
 
-    'react-native/no-unused-styles': "error",
+    'react-native/no-unused-styles': 'error',
     'react-native/no-raw-text': [
-      "error",
+      'error',
       {
         // Components that are allowed to take text as children
         // prettier-ignore
