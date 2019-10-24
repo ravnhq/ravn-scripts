@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/react-native-template-ravn",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Ravn React Native Template",
   "license": "MIT",
   "devDpendencies": {
