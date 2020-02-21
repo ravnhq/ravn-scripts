@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/eslint-config-ravn",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "eslint configs used by ravn",
   "main": "index.js",
