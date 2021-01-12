@@ -1,6 +1,6 @@
 {
   "name": "@ravn-dev/expo-template-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "expo template for use with expo cli",
   "license": "MIT",
   "publishConfig": {
@@ -34,10 +34,10 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "@ravn-dev/eslint-config-ravn": "^1.1.0",
+    "@ravn-dev/eslint-config-ravn": "^2.0.0",
     "@ravn-dev/git-processes-config": "^0.0.7",
     "@ravn-dev/prettier-config": "^0.0.6",
-    "@ravn-dev/typescript": "^0.0.7",
+    "@ravn-dev/typescript": "^1.0.0",
     "@testing-library/react-native": "^4.0.6",
     "@types/i18n-js": "^3.0.1",
     "@types/jest": "^24.0.15",
