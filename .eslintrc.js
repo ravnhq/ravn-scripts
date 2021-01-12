@@ -1,3 +1,6 @@
 module.exports = {
-  extends: './packages/eslint-config-ravn/base.js',
+  extends: [
+    './packages/eslint-config-ravn/base.js',
+    './packages/eslint-config-ravn/base.js',
+  ],
 }
