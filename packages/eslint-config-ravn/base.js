@@ -33,7 +33,7 @@ module.exports = {
     'valid-jsdoc': 'off',
     'valid-typeof': 'off',
 
-    'eslint-comments/disable-enable-pair': ["error", { allowWholeFile: true }],
+    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
 
     'babel/no-unused-expressions': [
       'error',
