@@ -8,7 +8,6 @@ module.exports = {
   },
   rules: {
     'consistent-return': 'off',
-    'global-require': 'error',
     'react/prop-types': 'off',
     'require-await': 'off',
 
