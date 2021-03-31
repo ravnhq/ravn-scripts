@@ -12,6 +12,8 @@ module.exports = {
       'error',
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
+    'react/jsx-uses-react': 'off', // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+    'react/react-in-jsx-scope': 'off', // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
     'react/no-did-mount-set-state': 'off', // https://github.com/yannickcr/eslint-plugin-react/issues/1754
     'react/no-unescaped-entities': 'off',
     'react/jsx-curly-brace-presence': 'error',
