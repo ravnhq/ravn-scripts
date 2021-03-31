@@ -14,7 +14,6 @@ module.exports = {
     'kentcdodds/possible-errors',
     'kentcdodds/best-practices',
     'prettier',
-    'prettier/babel',
   ],
   plugins: ['babel', 'eslint-comments'],
   rules: {

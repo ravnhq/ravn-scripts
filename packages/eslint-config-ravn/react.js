@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['kentcdodds/react', 'prettier/react'],
+  extends: ['kentcdodds/react', 'prettier'],
   settings: {
     react: {
       version: 'detect',
